@@ -1,0 +1,210 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+   
+    background: linear-gradient(115deg, #ffffff, #81dff9); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.loging {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(41, 42, 42);
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.form {
+    width: 500px;
+    border: 2px rgb(15, 159, 216);
+    padding: 30px;
+    background-color: rgb(134, 229, 251);
+    border-radius: 15px;
+    border: 4px dashed #00aeff; 
+}
+
+.input {
+    display: block;
+    border: 2px rgb(56, 55, 55);
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.label {
+    color: rgb(68, 65, 65);
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.submit_button {
+    float: right;
+    background-color: rgb(60, 195, 245);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-color: rgb(0, 183, 255);
+}
+
+.submit_button:hover{
+    opacity: .7;
+}
+
+.error{
+    background: rgb(223, 98, 98);
+    color: white;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+
+}
+
+.home_body{
+    background: linear-gradient(115deg, #ffffff, #81dff9); 
+
+}
+
+
+.custom-table {
+    background-color: #f9f9f9; 
+
+  }
+  
+  
+  .custom-table thead th {
+    background-color: #1da2f5; 
+    color: white;
+    border: 2px solid #ddd;
+  }
+  
+ 
+  .custom-table tbody td {
+    background-color: #e1e1e1; 
+    border: 2px solid #ddd;
+  }
+  
+  
+  .custom-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+.adduser_button{
+   
+    height: 45px;
+    width:200px;
+    background-color: rgb(60, 195, 245);
+    padding: 10px 15px !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+}
+
+.adduser_button:hover{
+    opacity: 7 !important;
+    background-color: #008cff !important;
+    border-color:  rgb(60, 195, 245)!important;
+
+}
+
+.homeheader{
+    background: linear-gradient(135deg, #00aeff, #ffffff); 
+    color: rgb(41, 42, 42);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.editbutton{
+    width: 60px !important;
+   background-color: #00ac14cf !important;
+   font-weight: bold !important;
+   border-color:#00ac14cf !important ;
+}
+
+.editbutton:hover{
+    background-color:#00500acf !important ;
+}
+
+.deletebutton{
+    width: 60px !important;
+   font-weight: bold !important;
+
+}
+
+.deletebutton:hover{
+    background-color:#800404 !important ;
+}
+
+
+.create-background{
+    background: linear-gradient(115deg, #ffffff, #81dff9); 
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.newuser{
+    color: rgb(41, 42, 42);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.newuser-form{
+    
+    border: 2px rgb(15, 159, 216);
+    padding: 30px;
+    background-color: rgb(134, 229, 251);
+    border-radius: 15px;
+    border: 4px dashed #00aeff; 
+    width: 800px;
+    height: 420px;
+    margin-left: 270px;
+}
+
+.list{
+    
+    font-size: 16px !important;
+}
+
+.error-alert{
+    background-color: #ef7070 !important;
+    color: #800404 !important;
+}
+
+.done-alert{
+    background-color: #70af64 !important;
+    color: #007c08 !important;
+}
+
+
+.Edit-background{
+    background: linear-gradient(115deg, #ffffff, #81dff9); 
+
+}
+
+.edit-form{
+    border: 2px rgb(15, 159, 216);
+    padding: 30px;
+    background-color: rgb(134, 229, 251);
+    border-radius: 15px;
+    border: 4px dashed #00aeff; 
+
+}
+
